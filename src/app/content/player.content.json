@@ -1,0 +1,227 @@
+{
+    "playerCursos": {
+      "cursos": [
+        {
+          "id": "curso1",
+          "imagem": "",
+          "nome": "Curso Completo de Python para Desenvolvedores Web",
+          "descricao": "Aprenda Python desde o zero e construa websites incríveis!",
+          "totalAulas": 10,
+          "professor": "João Silva",
+          "aulas": [
+            {
+              "id": "aula1",
+              "nome": "Introdução à Linguagem Python",
+              "descricao": "Descubra o que é Python e seus principais conceitos.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula2",
+              "nome": "Instalando e Configurando o Python no Seu Computador",
+              "descricao": "Aprenda a instalar e configurar o Python em diferentes sistemas operacionais.",
+              "tipo": "texto",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula3",
+              "nome": "Variáveis, Tipos de Dados e Operadores",
+              "descricao": "Domine os fundamentos da programação em Python.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula4",
+              "nome": "Estruturas de Controle: if, else e elif",
+              "descricao": "Aprenda a criar estruturas condicionais em Python.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula5",
+              "nome": "Loops: for e while",
+              "descricao": "Entenda como repetir tarefas com loops em Python.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula6",
+              "nome": "Funções: Definição e Utilização",
+              "descricao": "Crie e utilize funções para modularizar seu código.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula7",
+              "nome": "Listas e Métodos de Listas",
+              "descricao": "Aprenda a trabalhar com listas e seus métodos em Python.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula8",
+              "nome": "Dicionários: Armazenando Dados Complexos",
+              "descricao": "Entenda como utilizar dicionários para armazenar dados em pares chave-valor.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula9",
+              "nome": "Trabalhando com Módulos e Pacotes",
+              "descricao": "Descubra como utilizar módulos e pacotes para expandir as funcionalidades do seu código.",
+              "tipo": "vídeo",
+              "nivel": "intermediário",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula10",
+              "nome": "Introdução a Frameworks Web com Python",
+              "descricao": "Explore frameworks web como Flask e Django para desenvolvimento de aplicações web.",
+              "tipo": "vídeo",
+              "nivel": "intermediário",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "curso2",
+          "imagem": "",
+          "nome": "Aprenda a Criar Sites Responsivos com HTML, CSS e JavaScript",
+          "descricao": "Crie sites profissionais e compatíveis com todos os dispositivos.",
+          "totalAulas": 8,
+          "professor": "Maria Oliveira",
+          "aulas": [
+            {
+              "id": "aula1",
+              "nome": "Construindo a Estrutura Básica de um Site HTML",
+              "descricao": "Aprenda os elementos básicos da linguagem HTML.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula2",
+              "nome": "Estilização Básica com CSS",
+              "descricao": "Introdução ao CSS e como aplicar estilos básicos em elementos HTML.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula3",
+              "nome": "Seletores e Pseudo-classes em CSS",
+              "descricao": "Aprenda a utilizar seletores e pseudo-classes para estilizar elementos específicos.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula4",
+              "nome": "Introdução ao JavaScript",
+              "descricao": "Primeiros passos com JavaScript para adicionar interatividade ao seu site.",
+              "tipo": "vídeo",
+              "nivel": "iniciante",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula5",
+              "nome": "Manipulação do DOM com JavaScript",
+              "descricao": "Entenda como manipular o DOM para alterar o conteúdo e o estilo de suas páginas web.",
+              "tipo": "vídeo",
+              "nivel": "intermediário",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula6",
+              "nome": "Formulários e Validação de Dados",
+              "descricao": "Crie formulários interativos e aprenda a validar dados antes do envio.",
+              "tipo": "vídeo",
+              "nivel": "intermediário",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula7",
+              "nome": "Trabalhando com APIs Web",
+              "descricao": "Conecte seu site a APIs externas para buscar e exibir dados dinamicamente.",
+              "tipo": "vídeo",
+              "nivel": "avançado",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula8",
+              "nome": "Frameworks CSS e JavaScript: Bootstrap e jQuery",
+              "descricao": "Utilize frameworks populares como Bootstrap e jQuery para acelerar o desenvolvimento front-end.",
+              "tipo": "vídeo",
+              "nivel": "avançado",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula9",
+              "nome": "Design Responsivo com Media Queries",
+              "descricao": "Aprenda a criar designs que se adaptam a diferentes tamanhos de tela usando media queries.",
+              "tipo": "vídeo",
+              "nivel": "avançado",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            },
+            {
+              "id": "aula10",
+              "nome": "Performance e Otimizações para Web",
+              "descricao": "Melhores práticas para otimizar a performance do seu site e melhorar a experiência do usuário.",
+              "tipo": "vídeo",
+              "nivel": "avançado",
+              "duracao": "",
+              "imagem": "",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
