@@ -5,7 +5,7 @@
     },
     "categoriasCurso": {
       "categoriasTitle": "Categorias em Destaque!",
-      "categorias": ["Marketing", "Dança", "Gatronomia", "Tecnologia","Saúde","Mecânica"]
+      "categorias": ["Marketing", "Dança", "Gatronomia", "Tecnologia","Saúde","Mecânica","Legislação", "Networking"]
     },
     "cursoRecomendado": {
       "indicacaoTitle": "Em Destaque!",
@@ -116,48 +116,48 @@
         "cursosRecomendados": [
           {
             "id": "curso1",
-            "image": "/images/bg/formacao-social-media.jpg",
+            "image": "/images/bg/Fisiologia-do-exercicio-e-suplementacao-nutricional-600x450.png",
             "professor": "Diego Barros",
             "professorImage": "/images/teachers/dprofessor-diego-barros.png",
-            "curso": "Fundamentos de Python",
-            "duracao": "2 Horas",
-            "avaliacao": 5
+            "curso": "Fisiologia: suplementação nutricional",
+            "duracao": "22 Horas",
+            "avaliacao": 4.9
           },
           {
             "id": "curso2",
-            "image": "/images/bg/formacao-social-media.jpg",
-            "professor": "Diego Barros",
-            "professorImage": "/images/teachers/dprofessor-diego-barros.png",
-            "curso": "Fundamentos de Python",
-            "duracao": "2 Horas",
+            "image": "/images/bg/Arquitetura-de-interiores-residenciais-600x450.png",
+            "professor": "Rosana Stewart",
+            "professorImage": "/images/teachers/professora-rosana.png",
+            "curso": "Arquitetura De Interiores Residenciais",
+            "duracao": "22 Horas",
             "avaliacao": 5
           },
           {
             "id": "curso3",
-            "image": "/images/bg/formacao-social-media.jpg",
-            "professor": "Diego Barros",
-            "professorImage": "/images/teachers/dprofessor-diego-barros.png",
-            "curso": "Fundamentos de Python",
-            "duracao": "2 Horas",
-            "avaliacao": 5
+            "image": "/images/bg/Enologia-600x450.png",
+            "professor": "Emily Freitas",
+            "professorImage": "/images/teachers/EMILY-FREITAS.png",
+            "curso": "Enologia",
+            "duracao": "8 Horas",
+            "avaliacao": 4.8
           },
           {
             "id": "curso4",
-            "image": "/images/bg/formacao-social-media.jpg",
-            "professor": "Diego Barros",
-            "professorImage": "/images/teachers/dprofessor-diego-barros.png",
-            "curso": "Fundamentos de Python",
-            "duracao": "2 Horas",
+            "image": "/images/bg/Copywriting.jpg",
+            "professor": "Luiz Oscar",
+            "professorImage": "/images/teachers/professor-luiz.png",
+            "curso": "Copywriting",
+            "duracao": "40 Horas",
             "avaliacao": 5
           },
           {
             "id": "curso5",
-            "image": "/images/bg/formacao-social-media.jpg",
-            "professor": "Diego Barros",
-            "professorImage": "/images/teachers/dprofessor-diego-barros.png",
-            "curso": "Fundamentos de Python",
-            "duracao": "2 Horas",
-            "avaliacao": 5
+            "image": "/images/bg/Consultas-de-banco-de-dados-SQL-600x450.png",
+            "professor": "Jean Carvalho",
+            "professorImage": "/images/teachers/professor-jean.png",
+            "curso": "Banco de Dados SQL",
+            "duracao": "12 Horas",
+            "avaliacao": 4.9
           }
         ]
     },
@@ -190,5 +190,14 @@
             "image": "/images/bg/Analise-de-mercado.png"
           }
         ]
+    },
+    "ultimoCursoUser": {
+      "ultimoCursoUserTitle": "Conclua seu ultimo curso aberto!",
+      "ultimoCursoUser": {
+        "id": "curso1",
+        "image": "/images/bg/Programacao-com-Python-600x450.png",
+        "curso": "Fundamentos de algoritmos em Python",
+        "progresso": 82
+      }
     }
 }

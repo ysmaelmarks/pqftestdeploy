@@ -1,6 +1,6 @@
 "use client"
 
-import { Typography, Card, CardMedia, CardContent, IconButton, Box, LinearProgress, CardActionArea } from '@mui/material';
+import { Typography, Card, CardMedia, CardContent, IconButton, Box, LinearProgress, CardActionArea, Grid } from '@mui/material';
 import { useRouter } from 'next/navigation';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import { useState } from 'react';
@@ -26,7 +26,11 @@ const UltCursoUser: React.FC<CursoDestaqueHomeUserProps> = ({ id, image, curso, 
       <CardActionArea onClick={() => { router.push('/player'); }} sx={{ display: 'flex', width: '100%', alignItems: 'center' }}>
         <CardMedia
           component="img"
-          sx={{ width: 195 }}
+          sx={{ 
+            width: 172, 
+            aspectRatio: '1 / 1',
+            objectFit: 'cover',
+          }}
           image={image}
           alt={curso}
         />
@@ -51,29 +55,35 @@ const UltCursoUser: React.FC<CursoDestaqueHomeUserProps> = ({ id, image, curso, 
             <BookmarkIcon sx={{ color: iconColor, fontSize: 32 }}/>
           </IconButton>
 
-          <CardContent sx={{ padding: 0, marginTop: 'auto' }}>
+          <CardContent sx={{ padding: 0, marginTop: 'auto', paddingTop: '48px' }}>
             <Box sx={{ marginTop: 'auto' }}>
               <Typography variant="h5" component="div" gutterBottom>
                 {curso}
               </Typography>
 
-              <Box sx={{ display: 'flex', alignItems: 'center', marginTop: 2 }}>
-                <Typography variant="body2" sx={{ marginRight: 1 }}>
-                  Progresso: {progresso}%
-                </Typography>
-                <LinearProgress 
-                  variant="determinate" 
-                  value={progresso} 
-                  sx={{ 
-                    flexGrow: 1, 
-                    height: 10, 
-                    borderRadius: 5,
-                    '& .MuiLinearProgress-bar': {
-                      backgroundColor: 'tertiary.main',
-                    }
-                  }} 
-                />
-              </Box>
+              <Grid container spacing={2} sx={{ display: 'flex', alignItems: 'center', marginTop: 2 }}>
+                <Grid item xs={12} md={6}>
+                  <Typography variant="body2" sx={{ marginRight: 1 }}>
+                    Progresso: {progresso}%
+                  </Typography>
+                </Grid>
+                
+                <Grid item xs={12} md={6}>
+                  <LinearProgress 
+                    variant="determinate" 
+                    value={progresso} 
+                    sx={{ 
+                      flexGrow: 1, 
+                      height: 10, 
+                      borderRadius: 5,
+                      '& .MuiLinearProgress-bar': {
+                        backgroundColor: 'tertiary.main',
+                      }
+                    }} 
+                  />
+                </Grid>
+
+              </Grid>
             </Box>
           </CardContent>
         </Box>

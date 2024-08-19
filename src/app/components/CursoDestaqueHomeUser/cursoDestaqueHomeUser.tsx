@@ -27,32 +27,33 @@ const CursoDestaqueHomeUser: React.FC<CursoDestaqueHomeUserProps> = ({ id, image
   };
 
   return (
-    <Card sx={{ width: '100%', position: 'relative', backgroundColor: 'secondary.main', color: 'secondary.contrastText'}}>
-        <CardMedia
-            component="img"
-            height="195"
-            image={image}
-            alt={curso}
-        />
-        <IconButton 
-          sx={{
-            position: 'absolute', 
-            top: 8, 
-            right: 10, 
-            borderRadius: 5, 
-            backgroundColor: 'black',
-            '&:hover': {
-              backgroundColor: 'black'
-            }
-          }}
-          onClick={handleClick}
-        >
-          <BookmarkIcon sx={{ color: [iconColor], fontSize: 32 }}/>
-        </IconButton>
-
-        <Box sx={{ 
+    <Card sx={{ width: '100%', position: 'relative', backgroundColor: 'secondary.main', color: 'secondary.contrastText', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+      <CardMedia
+        component="img"
+        height="195"
+        image={image}
+        alt={curso}
+      />
+      <IconButton 
+        sx={{
           position: 'absolute', 
-          bottom: 132, 
+          top: 8, 
+          right: 10, 
+          borderRadius: 5, 
+          backgroundColor: 'black',
+          '&:hover': {
+            backgroundColor: 'black'
+          }
+        }}
+        onClick={handleClick}
+      >
+        <BookmarkIcon sx={{ color: [iconColor], fontSize: 32 }}/>
+      </IconButton>
+
+      <CardContent sx={{ position: 'relative', paddingTop: 4, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end' }}>
+        <Box sx={{ 
+          position: 'absolute',
+          bottom: 'calc(100% - 22px)',
           left: 8,
           display: 'flex', 
           zIndex: 1, 
@@ -68,25 +69,39 @@ const CursoDestaqueHomeUser: React.FC<CursoDestaqueHomeUserProps> = ({ id, image
           />
           <Typography variant="body1">{professor}</Typography>
         </Box>
-        
 
-        <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-          <Typography variant="h5" component="div" gutterBottom>
-            {curso}
-          </Typography>
-          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-              <AccessTimeIcon />
-              <Typography variant="body2">{duracao}</Typography>
-              <StarIcon />
-              <Typography variant="body2">{avaliacao}</Typography>
-            </Box>
-            <Button onClick={() => { router.push('/player'); }} sx={{borderRadius: 5}} variant="contained" color="tertiary">
-              Entre!
-            </Button>
+        <Typography variant="h5" component="div" gutterBottom>
+          {curso}
+        </Typography>
+        <Box sx={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        '@media (max-width:600px)': {
+          '& .MuiSvgIcon-root': {
+            fontSize: '1.0rem', 
+          },
+          '& .MuiTypography-body2': {
+            fontSize: '0.7rem', 
+          },
+        },
+      }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
+            <AccessTimeIcon />
+            <Typography sx={{ mr: 1 }} variant="body2">{duracao}</Typography>
+            <StarIcon />
+            <Typography variant="body2">{avaliacao}</Typography>
           </Box>
+          <Button onClick={() => { router.push('/player'); }} sx={{borderRadius: 5}} variant="contained" color="tertiary">
+            Entre!
+          </Button>
+        </Box>
       </CardContent>
     </Card>
+
+
+
+
   );
 };
 

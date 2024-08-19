@@ -7,7 +7,7 @@ const CategoriaHomeUser: React.FC<{ label: string }> = ({ label }) => {
   const router = useRouter();
   return (
     <Button 
-      onClick={() => { router.push('/Construcao'); }}
+      onClick={() => { router.push('/NovosCursos'); }}
       variant="outlined" 
       sx={{
         backgroundColor: 'secondary.main',
@@ -20,7 +20,7 @@ const CategoriaHomeUser: React.FC<{ label: string }> = ({ label }) => {
         alignItems: 'center', 
         borderRadius: 2,
         padding: 0,
-        border: '1.5px solid', 
+        border: '1.8px solid', 
         borderColor: 'secondary.main',
         '&:hover': {
           borderColor: 'secondary.main', 
